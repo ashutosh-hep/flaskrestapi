@@ -4,14 +4,14 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 
 main = Flask(__name__)
-cors = CORS(main, resources={r"/*": {"origins": ["http://34.170.55.94/"]}})
+#cors = CORS(main, resources={r"/*": {"origins": ["http://34.170.55.94/"]}})
 
-"""@main.after_request
+@main.after_request
 def after_request(response):
-  response.headers.add('Access-Control-Allow-Origin', '*')
+  response.headers.add('Access-Control-Allow-Origin', 'http://34.170.55.94/')
   response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
   response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-  return response"""
+  return response
 
 
 path = Api(main)
