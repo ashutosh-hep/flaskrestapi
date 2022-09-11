@@ -27,7 +27,6 @@ jwcrypto
 MarkupSafe
 oauth2client
 platformdirs
-protobuf
 psycopg2
 psycopg2-binary
 pyasn1
