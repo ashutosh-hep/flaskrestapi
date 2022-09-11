@@ -16,7 +16,7 @@ def after_request(response):
 
 path = Api(main)
 
-main.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:123456@34.172.206.228/empdata'
+main.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:123456@34.123.140.38/empdata'
 main.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(main)
