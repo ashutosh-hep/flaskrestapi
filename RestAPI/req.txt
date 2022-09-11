@@ -27,7 +27,6 @@ jwcrypto
 MarkupSafe
 oauth2client
 platformdirs
-psycopg2-binary
 pyasn1
 pyasn1-modules
 pycparser
